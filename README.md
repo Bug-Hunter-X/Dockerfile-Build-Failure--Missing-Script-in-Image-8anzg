@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to run a script that's not copied into the image.  The original Dockerfile (`Dockerfile`) fails because `my_script.py` is missing. The corrected version (`Dockerfile.fixed`) solves this by explicitly copying the script.
